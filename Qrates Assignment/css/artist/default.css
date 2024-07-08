@@ -1,0 +1,1109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.holder {
+  width: 100%;
+}
+.section1-container {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.section1-main img {
+  width: 50px;
+  margin-left: 5%;
+}
+.section1-tablet-main {
+  display: none;
+}
+.section1-tablet {
+  display: none;
+}
+.container {
+  width: 100%;
+}
+.section1-main {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+}
+.section1-select {
+  border: none;
+  font-size: 15px;
+}
+.btn-container {
+  position: relative;
+  display: inline-block;
+}
+.btn-container {
+  padding: 20px;
+  width: 250px;
+  border: none;
+  background-color: white;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+.btn-dropdown {
+  min-width: 200px;
+  background-color: #000000;
+  display: none;
+  position: absolute;
+  left: 30px;
+  top: 80%;
+}
+.btn-container:hover .btn-dropdown {
+  display: inline-block;
+}
+.btn-dropdown a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  text-align: center;
+}
+.btn-dropdown a:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.section1 {
+  border: none;
+  font-size: 20px;
+  background-color: white;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+}
+.section-1-a {
+  width: 150px;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+}
+.btn-2 {
+  width: 220px;
+  padding: 20px 30px;
+  margin: 0 20px;
+  margin-right: 50px;
+  border-radius: 30px;
+  background-color: rgb(178, 178, 178);
+  border: 3px solid rgb(178, 178, 178);
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: white;
+}
+
+/* section 2 starts here */
+.section-2 {
+  height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: black;
+  color: white;
+}
+.section-2-text {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+.sec-2-btn- {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: white;
+  padding: 15px;
+  background-color: transparent;
+  width: 150px;
+  border: 3px solid white;
+  margin: 20px 0;
+}
+
+.section-2-text h2 {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-size: 5em;
+  font-weight: 700;
+  padding: 30px 0;
+  line-height: 30px;
+}
+.section-2-h3 {
+  margin-top: 3%;
+}
+
+.section-2-text h3 {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-size: 30px;
+  padding: 5px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.section-2-img {
+  width: 80%;
+  height: 80%;
+  transform: rotate(10deg);
+  border: 5px solid black;
+}
+
+.one-img {
+  margin-top: 20%;
+  position: relative;
+  z-index: 1;
+}
+
+.two-img {
+  margin-bottom: 50%;
+  margin-left: 30%;
+  margin-top: -40%;
+  height: 95%;
+  position: relative;
+  transform: rotate(-10deg);
+}
+
+.section-2-img3 {
+  margin-top: -10%;
+  position: relative;
+  transform: rotate(15deg);
+  z-index: 1;
+  margin-left: 20%;
+  width: 55%;
+}
+.move {
+  width: 2%;
+  border-left: 2px solid black;
+}
+
+/* section 3 starts here */
+.section-3 {
+  display: grid;
+  grid-template-columns: 50% 2% 49%;
+  height: 110vh;
+  background-color: #e4e5de;
+}
+
+.section-3-head {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 30vh;
+}
+.section-3-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+}
+.section-3-content {
+  width: 80%;
+  margin: auto;
+}
+hr {
+  color: #000000;
+  width: 55px;
+}
+.section-img {
+  width: 90%;
+  height: 90%;
+}
+/* for the content with the image */
+.section-3-content h2 {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  line-height: 42px;
+  color: #000000;
+  margin-top: 7rem;
+}
+.section-3-head h2 {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  line-height: 42px;
+  color: #000000;
+}
+
+.section-3-content h3 {
+  font-size: 20px;
+  text-align: center;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  line-height: 42px;
+  color: #000000;
+}
+
+/* section 4 starts here */
+.section-4 {
+  display: flex;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.section-4 h2 {
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 1rem;
+
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  line-height: 42px;
+  color: white;
+}
+
+/* section 5 starts here */
+.section-5 {
+  display: grid;
+  grid-template-columns: 49% 1% 50%;
+  height: fit-content;
+}
+.section-5-arrow h3 {
+  border: 1px solid black;
+  background-color: #000000;
+  text-justify: distribute-all-lines;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  margin-top: 40%;
+  width: 4px;
+  height: 70%;
+}
+
+.section-5-arrow {
+  position: relative;
+  background-color: yellow;
+  padding-top: 15em;
+}
+.section-5-arrow i {
+  font-size: 40px;
+  position: absolute;
+  left: -17px;
+  margin-top: -30px;
+}
+.section-5-arrow h2 {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  border: 5px solid black;
+  background-color: white;
+  font-size: 40px;
+  border-radius: 50%;
+  text-align: center;
+  left: -50px;
+}
+.arrow-round {
+  height: 120px;
+  width: 120px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: -300%;
+  border: 3px solid black;
+}
+.arrow-round span {
+  font-size: 80px;
+  font-weight: 700;
+}
+.section-5-input {
+  width: 80%;
+  margin: auto;
+  height: 70%;
+  text-align: center;
+}
+.section-5-input bufooter-copyright-iconeon {
+  padding: 10px;
+  width: 100px;
+  background-color: white;
+  border-radius: 2px solid black;
+  margin-bottom: 1rem;
+}
+.section-5-input-gp {
+  margin-bottom: 4rem;
+  padding-top: 10%;
+}
+.section-5-img img {
+  width: 80%;
+}
+.section-5-input-gp h2 {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  margin-bottom: 1rem;
+}
+.section-5-input-gp h3 {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28px;
+}
+.section5-input2b {
+  text-align: start;
+}
+.section5-input2b h2 {
+  text-align: start;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+}
+.section5-input2b h3 {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28px;
+}
+.section5-input2 h2 {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  margin-bottom: 1rem;
+}
+.section-5-input-gp  {
+  margin-left: 25%;
+}
+.section5-input2 h3,
+p {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: end;
+}
+.section5-input2 p {
+  font-weight: 700;
+}
+.r5 {
+  background-color: yellow;
+}
+.l5 {
+  background-color: #e4e5de;
+}
+
+/* section 6 */
+.section-6a-con {
+  background-color: #e4e5de;
+}
+.section-6 h2 {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 28px;
+  text-align: end;
+  padding: 5px;
+  color: #000000;
+}
+.section-6 h3 {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: end;
+  color: #000000;
+}
+.section-6-img {
+  width: 90%;
+}
+.section-6-container {
+  width: 70%;
+  margin: auto;
+}
+a {
+  color: #000000;
+  margin-top: 15rem;
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+.section-6b h2 {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: start;
+  padding: 5px;
+  color: #000000;
+}
+.section-6b li {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  text-align: start;
+  padding: 5px;
+  color: #000000;
+  list-style-type: none;
+}
+.section-6b {
+  margin-top: 1%;
+}
+.section6b-b h2 {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: start;
+  padding: 5px;
+  color: #000000;
+}
+.section6b-b h3 {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  text-align: start;
+  padding: 5px;
+  color: #000000;
+}
+.section6b-b {
+  margin-top: 2%;
+}
+.section6-tablet {
+  display: none;
+}
+
+/* section 7 */
+.section-7 {
+  display: grid;
+  grid-template-columns: 49% 1% 50%;
+}
+
+/* 7b */
+
+.section-7-b h2 {
+  font-size: 2em;
+}
+.section-5-input-gp-b {
+  text-align: start;
+}
+.section-5-input-gp-b h2 {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: start;
+  padding: 5px;
+  color: #000000;
+}
+.section-5-input-gp-b h3 {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  text-align: start;
+  padding: 5px;
+  color: #000000;
+}
+.section-7-b {
+  width: 90%;
+  margin: auto;
+}
+.section-7-b h3,
+p {
+  font-size: 2em;
+}
+.section-7-tablet {
+  background-color: yellow;
+  display: flex;
+  padding-top: 10px;
+}
+.section-7-tablet-arrow {
+  padding-left: 1em;
+}
+.section-7-tablet-arrow h2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  border: 2px solid black;
+}
+.section-7-tablet-arrow h3 {
+  width: 5px;
+  height: 300px;
+  background-color: black;
+  margin-left: 14px;
+}
+.section-7-tablet-arrow i {
+  font-size: 40px;
+  margin-top: -20px;
+  margin-right: -15px;
+}
+.section-7-tablet {
+  display: none;
+}
+.section-5-input-gp {
+  width: 70%;
+  margin: auto;
+  text-align: end;
+}
+/* section 9 */
+.section9-dis {
+  width: 100%;
+  height: 100%;
+  border: 5px solid #e4e5de;
+  background-color: #e4e5de;
+}
+.section-9-container {
+  width: 80%;
+  margin: auto;
+}
+/* section 10 */
+.section-10-bufooter-copyright-iconeon {
+  display: flex;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+}
+.section-10-bufooter-copyright-iconeon bufooter-copyright-iconeon {
+  background-color: black;
+  color: white;
+  width: 300px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 30px;
+}
+.section10input {
+  width: 70%;
+  margin: auto;
+  text-align: end;
+}
+.section10input h2 {
+  font-size: 30px;
+}
+.section10input h3 {
+  font-size: 20px;
+}
+/* section 11 */
+.section-11 {
+  display: flex;
+  background-color: #000000;
+  height: 25vh;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-11 {
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 20px;
+  border: 3px solid white;
+}
+.section-11 h2 {
+  font-size: 3em;
+  font-weight: 700;
+  color: white;
+}
+.section-11 i {
+  color: white;
+  font-size: 20pz;
+}
+
+/* section 12 */
+.section-12 {
+  display: flex;
+  height: 150vh;
+}
+.sec-12-img {
+  width: 70%;
+  height: 70vh;
+  margin: auto;
+  margin-top: 6rem;
+}
+.sec-12-img img {
+  border: 1px solid black;
+  height: 70vh;
+  margin-bottom: 30%;
+}
+.sec-12-content {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 15%;
+}
+.sec-12-btn1 {
+  width: fit-content;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  margin: 20px 0;
+}
+.sec-12-btn2 {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  margin: 40px 0;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 30px;
+}
+.sec-12-content h2 {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.5px;
+  margin-bottom: 10px;
+}
+.sec-12-content h3 {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.sec-12-main1 {
+  background-color: #81836c;
+}
+.sec-12-main2 {
+  background-color: #f8d8d8;
+}
+
+/* section 13 */
+.section-13 {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+.section-13  {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 40px 0;
+  background-color: white;
+}
+.section-13 h2 {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  margin: 40px 0;
+}
+.section-13 h3 {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.sec-12-btn {
+  border-radius: 30px;
+  width: 300px;
+  font-size: 30px;
+}
+
+/* section 14 */
+.section-14 {
+  height: 120vh;
+  background-color: yellow;
+  display: flex;
+}
+.section-14-A {
+  width: 50%;
+  margin: auto;
+  margin-left: 3%;
+}
+.section-12-btn {
+  padding: 20px;
+  background-color: white;
+  font-weight: 700;
+}
+.section-12-input2 {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 34px;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  color: black;
+  margin: 30% 0;
+}
+.section-12-input2 a {
+  color: black;
+  line-height: 34px;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  color: black;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+.section-12-rd-btn {
+  height: 60px;
+  width: 60px;
+
+  border-radius: 50%;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 2%;
+  display: inline-block;
+}
+.btn-12 {
+  background-color: transparent;
+  color: #000000;
+  border: 2px solid black;
+}
+.section-12-img img {
+  width: 90%;
+  height: 63em;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border: 3px solid black;
+}
+
+/* section 15 */
+.section-15 {
+  background-color: #000000;
+  color: white;
+}
+
+.section-6 {
+  width: 100%;
+  height: 90vh;
+  background-color: #000000;
+  color: white;
+}
+.set1-section6 {
+  width: 80%;
+  margin: auto;
+}
+.section6-btn1 {
+  padding: 20px;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  margin-top: 40px;
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  width: 300px;
+  margin-left: 30%;
+}
+.section6-con h2 {
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  padding: 20px;
+}
+.section6-con p {
+  font-size: 30px;
+}
+.section6-con-img-body {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  height: 40vh;
+  margin-top: 30px;
+}
+.section6-btn2 {
+  width: 500px;
+  margin-left: 20px;
+  background-color: yellow;
+  padding: 20px 0;
+  color: #000000;
+  border-radius: 30px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+}
+.section6-con-img-body2 {
+  position: relative;
+  right: -10%;
+  background-image: url("https://assets.qrates.com/packs/media/section_vinyl_studio/sample_all_india-36327a32.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: square-div;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes square-div {
+  0% {
+    background-image: url("https://assets.qrates.com/packs/media/section_vinyl_studio/sample_blarney-469831b2.png");
+  }
+  25% {
+    background-image: url("httpss://assets.qrates.com/packs/media/section_vinyl_studio/sample_bombay-668a0fa8.png");
+  }
+  50% {
+    background-image: url("https://assets.qrates.com/packs/media/section_vinyl_studio/sample_4dilla-d886be83.png");
+  }
+
+  100% {
+    background-image: url("https://assets.qrates.com/packs/media/section_vinyl_studio/sample_all_india-36327a32.png");
+  }
+}
+
+.section6-con {
+  width: 50%;
+  margin: auto;
+}
+
+.section6-con-img-body1 {
+  position: relative;
+}
+.transition-img1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  right: 0;
+  bottom: 0;
+
+  background-image: url("https://assets.qrates.com/packs/media/sticker/sparkle_white-15aaeb14.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: star;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+@keyframes star {
+  0% {
+    background-image: url("");
+  }
+  25% {
+    background-image: url("https://assets.qrates.com/packs/media/sticker/sparkle_white-15aaeb14.png");
+  }
+  50% {
+    background-image: url("");
+  }
+  75% {
+    background-image: url("https://assets.qrates.com/packs/media/sticker/sparkle_white-15aaeb14.png");
+  }
+}
+
+.transition-img2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: -150px;
+
+  background-image: url("https://assets.qrates.com/packs/media/sticker/dollar_white-94a2da47.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: p;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+}
+@keyframes p {
+  0% {
+    background-image: url("");
+  }
+  25% {
+    background-image: url("https://assets.qrates.com/packs/media/sticker/dollar_white-94a2da47.png");
+  }
+  50% {
+    background-image: url("");
+  }
+  75% {
+    background-image: url("https://assets.qrates.com/packs/media/sticker/dollar_white-94a2da47.png");
+  }
+}
+
+.section6-con-img-body4 {
+  position: relative;
+}
+
+.transition-img3 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  right: -400px;
+  bottom: -400px;
+
+  background-image: url("https://assets.qrates.com/packs/media/sticker/sparkle_white-15aaeb14.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: star;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+@keyframes star {
+  0% {
+    background-image: url("");
+  }
+  25% {
+    background-image: url("https://assets.qrates.com/packs/media/sticker/sparkle_white-15aaeb14.png");
+  }
+  50% {
+    background-image: url("");
+  }
+  75% {
+    background-image: url("https://assets.qrates.com/packs/media/sticker/sparkle_white-15aaeb14.png");
+  }
+}
+
+.transition-img4 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  right: -400px;
+  top: 0;
+
+  background-image: url("https://assets.qrates.com/packs/media/sticker/dollar_white-94a2da47.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: picking;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+}
+@keyframes picking {
+  0% {
+    background-image: url("");
+  }
+  25% {
+    background-image: url("https://assets.qrates.com/packs/media/sticker/dollar_white-94a2da47.png");
+  }
+  50% {
+    background-image: url("");
+  }
+  75% {
+    background-image: url("httpss://assets.qrates.com/packs/media/sticker/dollar_white-94a2da47.png");
+  }
+}
+
+/* footer */
+.footer-con-1 {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 70px;
+  padding-top: 40px;
+  /* ff-icon: 40px; */
+}
+.footer-con-1 a {
+  text-decoration: none;
+  color: white;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+.footer-con-1 h2 {
+  color: white;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+}
+.section8-container {
+  background-color: black;
+}
+/* section 8B */
+.section-8b {
+  height: 60vh;
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section-8b-img img {
+  width: 600px;
+  margin-left: 100px;
+  margin-top: 20%;
+}
+
+.footer-icone {
+  color: white;
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.footer-a a {
+  text-decoration: none;
+  color: white;
+  gap: 30px;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.foot-2b-icone {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  text-align: end;
+  margin-top: 20%;
+}
+.footer-select {
+  padding: 20px;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  width: 200px;
+  align-self: flex-end;
+}
+
+/* footer for small screen */
+
+.footer-small {
+  height: 40vh;
+  background-color: #000000;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.foot-small-sec1 {
+  width: 90%;
+  margin: auto;
+}
+.footersmall-icone {
+  color: white;
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+.footer-select-small {
+  width: 90%;
+  padding: 20px;
+  border: 5px solid white;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background-color: transparent;
+}
+.foot-a-small a {
+  color: white;
+  text-decoration: none;
+  padding: 80px;
+  font-size: 20px;
+}
+.copylogo {
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.footer-small {
+  display: none;
+}
+.section-6 {
+  background-color: transparent;
+}
+.a-page3 {
+  color: #000000;
+  margin-top: 5px;
+}
+.sec-2-a {
+  width: 100%;
+}
+.sec-2-b {
+  width: 100%;
+  text-align: start;
+}

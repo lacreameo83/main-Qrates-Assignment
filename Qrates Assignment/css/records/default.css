@@ -1,0 +1,468 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:Qratesis, "Noto Sans JP", sans-serif;
+}
+/* for sec 1 starting */
+.section1-container {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+/* this is for small screen design */
+.section1-tablet {
+  display: none;
+}
+/* this is the section that groups the body */
+.container {
+  width: 100%;
+}
+
+.section1-main {
+  display: flex;
+  align-items: center;
+
+  
+}
+.section1-main img {
+  width: 30px;
+  margin-right: 10%;
+}
+
+/* the icone in discorery music */
+.btn-i-link {
+  font-size: 13px;
+  font-weight:bolder;
+  position: absolute;
+  margin-left: 5px;
+}
+.btn-container {
+  position: relative;
+  display: inline-block;
+  width: 180px;
+  margin-left: 40px;
+}
+
+.btn-container label {
+  border: none;
+  background-color: white;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 570;
+  color: #000000;
+  font-size: 15px;
+cursor: pointer;
+}
+
+.img:has(+ input[type="checkbox"]:checked){
+    transform: rotate(180deg);
+      transition: transform 0.5s ease;
+}
+.img {
+  display: inline;
+}
+
+input[type="checkbox"]:checked + .btn-dropdown{
+  display:inline-block;
+}
+
+input[type="checkbox"]{
+  display:none;
+}
+
+
+.btn-dropdown {
+  display:none;
+  min-width: 220px;
+  background-color: #000000;
+  position: absolute;
+  left: 55px;
+  top: 30px;
+}
+
+
+.btn-dropdown a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: start;
+  padding: 10px 30px;
+  font-size: 23px;
+  font-weight: 550;
+}
+/* this is for the links inside the discover music for the first a tag */
+.records-a {
+  margin-top: 15px;
+}
+/* this is for the links inside the discover music for the last a tag */
+.records-a2 {
+  margin-bottom: 15px;
+}
+.btn-dropdown a:hover {
+  cursor: pointer;
+}
+
+
+/* this is for artists */
+.sec-1-a-btn {
+  border: none;
+  font-size: 15px;
+  background-color: white;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 570;
+  color: #000000;
+  width: 150px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+/* for fans */
+.btn-2 {
+  border: none;
+  font-size: 15px;
+  background-color: white;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 570;
+  color: #000000;
+  width: 100px;
+
+}
+.section-1-icone1  {
+font-size: 20px;
+width: 75px;
+
+}
+.section-1-icone2 {
+  font-size: 25px;
+}
+.section-1-a {
+  display: flex;
+  align-items: center;
+
+}
+/* part 2 of nav */
+
+.section1button1 {
+  border: none;
+  font-size: 15px;
+  background-color: white;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 600;
+  color: #000000;
+ margin-right: 20px;
+}
+.section1button2 {
+  width: 200px;
+  padding: 15px 20px;
+  margin-right: 25px;
+  border-radius: 30px;
+  background-color: rgb(178, 178, 178);
+  border: 3px solid rgb(178, 178, 178);
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: white;
+ 
+}
+
+/* section 2 */
+.section2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 35vh;
+  background-color: black;
+  white-space: nowrap;
+  overflow-x: auto;
+  width: 100%;
+  padding-top: 2%;
+}
+.section2-input2 {
+  display: block;
+  color: black;
+  -webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: white;
+  font-weight: 200;
+  font-size: 65px;
+  text-align: center;
+  letter-spacing: 0.95px;
+  line-height: 70px;
+  font-family: "Noto Sans JP";
+
+}
+
+.section2-input1 {
+  /* display: block; */
+  color: white;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  font-weight: 900;
+  font-size: 60px;
+  letter-spacing: 0.95px;
+  font-family: "Noto Sans JP";
+
+}
+.section2-input2iii {
+  text-align: end;
+}
+
+.section2-input2:hover {
+  color: white;
+}
+/* section 3 starts here */
+.section3 {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  white-space: nowrap;
+  border: 1px solid black;
+  overflow-x: scroll;
+}
+
+.section3 div {
+  margin-left: 10px;
+  color: black;
+  font-size: 15px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 30px;
+  font-weight: bolder;
+  padding: 10px;
+}
+.section3 div:hover {
+  color: white;
+  background-color: black;
+}
+/* sectio 4 */
+.section4 {
+  height: 10vh;
+}
+.section4-main {
+  display: flex;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 500;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+}
+.section4-main select {
+  border: 0;
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+/* section 5 */
+.section5-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  
+}
+
+
+.set-5 > * {
+  text-align: start;
+  width: 80%;
+}
+.set5-h3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 10px;
+}
+.set-5-h4 {
+  display: flex;
+}
+.set-5-h4 h4 {
+  border: 2px solid black;
+  border-radius: 30px;
+  font-size: 13px;
+  padding: 5px 10px;
+  margin: 5px;
+}
+.set-5 h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  /* ff-icon: 30px; */
+}
+.set-5 p {
+  /* font-size: 20px; */
+  font-weight: bolder;
+  /* ff-icon: 30px; */
+}
+.c-b-5 {
+  background-color: rgba(252, 249, 242, 0.897);
+}
+
+.set-5 h2,p {
+  font-size: 25px;
+  line-height: 30px;
+}
+.section5-main2 {
+  display: none;
+}
+.section5-main3 {
+  display: none;
+}
+.remove-5 {
+  display: none;
+}
+
+/* section 6 part */
+.section6 {
+  height: 30vh;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.section6 {
+  padding: 0px;
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
+  /* border-radius: 50px; */
+}
+
+.section6 button {
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  border-radius: 30px;
+  width: 300px;
+  padding:20px;
+}
+
+
+.footer-con-1 {
+  width: 90%;
+  margin: auto;
+  display:grid ;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+ 
+}
+.footer-con-1 a {
+  text-decoration: none;
+  color: white;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 40px;
+}
+.footer-con-1 h2 {
+  color: white;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-size: 21px;
+  margin: 40px 0;
+}
+.section8-container {
+  background-color: black;
+}
+/* section 8B */
+.section-8b {
+  height: 60vh;
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section-8b-img img {
+  width: 400px;
+  margin-left: 100px;
+  margin-top: 32%;
+}
+
+.footer-icone {
+  color: white;
+  font-size: 35px;
+  margin: 20px 0;
+}
+
+.footer-a a {
+  text-decoration: none;
+  color: white;
+  gap: 30px;
+  padding-left: 15px;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.foot-2b-icone {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  text-align: end;
+  margin-top: 32%;
+}
+.footer-select {
+  width: 150px;
+  padding: 10px 20px;
+  background-color: black;
+  border: 2px solid white;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: white;
+  align-self: flex-end;
+}
+
+.foot-a9 {
+  margin-left: 20px;
+}
+.li-a-footer li {
+  padding-bottom: 20px;
+}
+.li-a-footer {
+  margin-top: 38px;
+}
+
+/* footer for small screen */
+
+.footer-small {
+  height: 40vh;
+  background-color: #000000;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.foot-small-sec1 {
+  width: 90%;
+  margin: auto;
+}
+.footersmall-icone {
+  color: white;
+  font-size: 60px;
+  margin-left: 10px;
+}
+
+.footer-select-small {
+  width: 90%;
+  padding: 20px;
+  border: 5px solid white;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background-color: transparent;
+}
+.foot-a-small a {
+  color: white;
+  text-decoration: none;
+  padding: 80px;
+  font-size: 20px;
+}
+.copylogo {
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.footer-small {
+  display: none;
+}
